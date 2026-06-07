@@ -1,0 +1,53 @@
+Helmet Detection for Road Safety – Kaggle Execution Instructions
+Prerequisites
+1.	Create a Kaggle account and sign in.
+2.	Download the helmet detection dataset and upload it to Kaggle as a dataset.
+3.	Upload the notebook file helmet-detection-for-road-safety.ipynb to Kaggle.
+Steps to Run the Project
+Step 1: Create a New Kaggle Notebook
+•	Open Kaggle.
+•	Navigate to Code → New Notebook.
+•	Upload the notebook or copy the code into the notebook editor.
+Step 2: Attach the Dataset
+•	Click Add Input.
+•	Select the uploaded helmet detection dataset.
+•	Verify that the dataset path matches the path specified in the notebook configuration.
+Step 3: Enable GPU
+•	Open Notebook Settings.
+•	Set Accelerator to GPU (T4 or P100).
+•	Save the settings.
+Step 4: Run the Notebook
+•	Execute all cells sequentially from top to bottom.
+•	The notebook will:
+o	Parse XML annotations.
+o	Generate cropped helmet and non-helmet images.
+o	Split the dataset into training, validation, and testing sets.
+o	Train Custom CNN, MobileNetV2, and ResNet50 models.
+o	Evaluate model performance.
+o	Generate Grad-CAM and SHAP explanations.
+o	Create comparison tables and visualizations.
+Step 5: View Results
+The notebook generates:
+•	Accuracy and Loss Curves
+•	Confusion Matrices
+•	ROC Curves
+•	Grad-CAM Heatmaps
+•	SHAP Explanations
+•	Model Comparison Tables
+Step 6: Download Outputs
+All trained models, figures, and CSV result files are saved in:
+/kaggle/working/
+These files can be downloaded from the Kaggle notebook output section after execution is completed.
+Expected Outputs
+•	cnn_model.keras
+•	mobilenetv2_model.keras
+•	resnet50_model.keras
+•	Performance Metrics Tables
+•	ROC Curve Visualizations
+•	Confusion Matrices
+•	Grad-CAM Images
+•	SHAP Explanation Figures
+•	Final Model Comparison Report
+Note
+Execution time depends on the dataset size and GPU availability. Running the notebook on a GPU is strongly recommended for faster training and evaluation.
+
