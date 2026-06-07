@@ -1,0 +1,4 @@
+Model,Test Images,Correct,Misclassified,Error Rate
+CNN,189,58,131,0.6931
+MobileNetV2,189,131,58,0.3069
+ResNet50,189,131,58,0.3069

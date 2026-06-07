@@ -1,0 +1,4 @@
+Model,Grad-CAM Quality (1-5),SHAP Quality (1-5),Comment
+CNN,3,3,Use the saved CNN Grad-CAM and SHAP figures to refine this rating.
+MobileNetV2,4,4,Transfer features often produce clearer object-level explanations.
+ResNet50,4,4,Compare whether highlighted regions align with helmet/head areas.

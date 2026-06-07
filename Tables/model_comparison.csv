@@ -1,0 +1,4 @@
+Model,Accuracy,Precision (Macro),Recall (Macro),F1-Score (Macro),ROC-AUC,Recall (No Helmet),F1-Score (No Helmet),Parameters,Inference Time (s/batch),Training Time (s)
+MobileNetV2,0.6931,0.3466,0.5,0.4094,0.5,0.0,0.0,2422081,0.1213,24.0203
+ResNet50,0.6931,0.3466,0.5,0.4094,0.5885,0.0,0.0,23850113,0.196,60.8199
+CNN,0.3069,0.1534,0.5,0.2348,0.6111,1.0,0.4696,110785,0.1089,31.2084
